@@ -1,0 +1,60 @@
+:root{
+    --menu-width: 34%;
+}
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+body {
+    overflow: hidden;
+}
+
+
+.menu{
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    width: var(--menu-width);
+    color: white;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+.menu .main-text{
+    text-align: center;
+    margin: 10px;
+}
+.credit-link{
+    color: rgb(0, 0, 133);
+    cursor: pointer;
+}
+
+.colors, .size, .rotation{
+    border-top: 1px solid white;
+    height: 15em;
+}
+
+.colors .col-table{
+    text-align: center;
+}
+.colors .col-table p{
+    font-size: 90%;
+}
+
+.col-holder, .size-holder, .rot-holder{
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.credit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
