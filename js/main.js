@@ -1,2 +1,183 @@
-//why are you here
-var _0x50d29f=_0x3903;(function(_0x7dcd35,_0x4bf68d){var _0x3bdaca=_0x3903,_0x3b4917=_0x7dcd35();while(!![]){try{var _0x5cd366=parseInt(_0x3bdaca(0xc6))/0x1*(parseInt(_0x3bdaca(0xbd))/0x2)+parseInt(_0x3bdaca(0xa3))/0x3*(-parseInt(_0x3bdaca(0xcd))/0x4)+-parseInt(_0x3bdaca(0xa6))/0x5*(-parseInt(_0x3bdaca(0xc2))/0x6)+-parseInt(_0x3bdaca(0xc5))/0x7+-parseInt(_0x3bdaca(0xa5))/0x8*(-parseInt(_0x3bdaca(0xd6))/0x9)+-parseInt(_0x3bdaca(0xb5))/0xa*(parseInt(_0x3bdaca(0xa7))/0xb)+-parseInt(_0x3bdaca(0xd4))/0xc*(parseInt(_0x3bdaca(0xd0))/0xd);if(_0x5cd366===_0x4bf68d)break;else _0x3b4917['push'](_0x3b4917['shift']());}catch(_0x14c22a){_0x3b4917['push'](_0x3b4917['shift']());}}}(_0x3c24,0x2df0b));function detectMob(){var _0x1d7d3a=_0x3903;const _0x1cdf78=[/Android/i,/webOS/i,/iPhone/i,/iPad/i,/iPod/i,/BlackBerry/i,/Windows Phone/i];return _0x1cdf78[_0x1d7d3a(0xd5)](_0x52a5d3=>{var _0x474dcd=_0x1d7d3a;return navigator[_0x474dcd(0xac)][_0x474dcd(0xda)](_0x52a5d3);});}detectMob()==!![]&&document[_0x50d29f(0xc7)]('Please\x20turn\x20on\x20computer\x20mode\x20in\x20your\x20mobile\x20browser.');function _0x3903(_0x598eaa,_0x4a6f33){var _0x3c2400=_0x3c24();return _0x3903=function(_0x3903cf,_0x21478b){_0x3903cf=_0x3903cf-0xa3;var _0x1a9f51=_0x3c2400[_0x3903cf];return _0x1a9f51;},_0x3903(_0x598eaa,_0x4a6f33);}var scene,camera,renderer,controls,color0=_0x50d29f(0xb0),color1='0x0033ff',color2=_0x50d29f(0xb2),color3=_0x50d29f(0xb3),color4=_0x50d29f(0xcc),color5=_0x50d29f(0xb7),cubeMaterials,backC=0x333333,backgroundColor=document[_0x50d29f(0xd1)](_0x50d29f(0xcf));backgroundColor[_0x50d29f(0xa8)]('input',function(_0x31bcc1){var _0x4593f8=_0x50d29f;backC=parseInt('0x'+_0x31bcc1[_0x4593f8(0xb4)]['value'][_0x4593f8(0xae)](0x1));},![]);function _0x3c24(){var _0x505559=['rotation','input','210IVEFGs','rotateSpeed','scale','1624098KtQNmJ','853HUQIVI','write','checked','sizeX','MeshBasicMaterial','innerWidth','0xff7b00','4996zWKhOV','rotateZ','backgroundColor','127816rTkYIV','getElementById','update','material','24DhKCHO','some','4203DGDEAj','lookAt','color-3','BoxGeometry','match','position','Scene','Width','42SqhFqD','set','4848zOkecs','43835rEoHVH','3249785FoPLYm','addEventListener','setHex','render','OrbitControls','userAgent','domElement','substring','color-1','0xff0000','setClearColor','0xeeff00','0xffffff','target','10RKhWGK','color-5','0x00ff04','color-0','color','value','sizeZ','resize','382UfypgY','setSize','sizeY'];_0x3c24=function(){return _0x505559;};return _0x3c24();}var input0=document['getElementById'](_0x50d29f(0xb8)),input1=document[_0x50d29f(0xd1)](_0x50d29f(0xaf)),input2=document[_0x50d29f(0xd1)]('color-2'),input3=document[_0x50d29f(0xd1)](_0x50d29f(0xd8)),input4=document[_0x50d29f(0xd1)]('color-4'),input5=document['getElementById'](_0x50d29f(0xb6));input0[_0x50d29f(0xa8)]('input',function(_0x3c0616){var _0x2ca1b7=_0x50d29f;color0=parseInt('0x'+_0x3c0616[_0x2ca1b7(0xb4)][_0x2ca1b7(0xba)][_0x2ca1b7(0xae)](0x1));},![]),input1[_0x50d29f(0xa8)](_0x50d29f(0xc1),function(_0x52537b){var _0x34b32d=_0x50d29f;color1=parseInt('0x'+_0x52537b[_0x34b32d(0xb4)][_0x34b32d(0xba)]['substring'](0x1));},![]),input2['addEventListener'](_0x50d29f(0xc1),function(_0x2ebcb4){var _0x58d8e7=_0x50d29f;color2=parseInt('0x'+_0x2ebcb4[_0x58d8e7(0xb4)][_0x58d8e7(0xba)]['substring'](0x1));},![]),input3[_0x50d29f(0xa8)](_0x50d29f(0xc1),function(_0x1b4475){var _0xae0972=_0x50d29f;color3=parseInt('0x'+_0x1b4475[_0xae0972(0xb4)]['value']['substring'](0x1));},![]),input4[_0x50d29f(0xa8)](_0x50d29f(0xc1),function(_0x343a39){var _0x235c1c=_0x50d29f;color4=parseInt('0x'+_0x343a39[_0x235c1c(0xb4)][_0x235c1c(0xba)][_0x235c1c(0xae)](0x1));},![]),input5[_0x50d29f(0xa8)]('input',function(_0x2ccc18){var _0x5f518f=_0x50d29f;color5=parseInt('0x'+_0x2ccc18['target'][_0x5f518f(0xba)][_0x5f518f(0xae)](0x1));},![]);var Height=window['innerHeight']-0x1,Width=window[_0x50d29f(0xcb)]/1.5,cube,SPEED=0.05,rotationX=0x1,rotationY=0x1,rotationZ=0x1;window['addEventListener'](_0x50d29f(0xbc),onWindowResize,![]);function onWindowResize(){var _0x55e938=_0x50d29f;Width=window['innerWidth']/1.5,Height=window['innerHeight']-0x1,camera['aspect']=Width/Height,camera['updateProjectionMatrix'](),renderer[_0x55e938(0xbe)](Width,Height);}function init(){var _0x26c53e=_0x50d29f;scene=new THREE[(_0x26c53e(0xdc))](),cubeMaterials=[new THREE['MeshBasicMaterial']({'color':0x0}),new THREE[(_0x26c53e(0xca))]({'color':0x0}),new THREE['MeshBasicMaterial']({'color':0x0}),new THREE['MeshBasicMaterial']({'color':0x0}),new THREE[(_0x26c53e(0xca))]({'color':0x0}),new THREE[(_0x26c53e(0xca))]({'color':0x0})],cube=new THREE['Mesh'](new THREE[(_0x26c53e(0xd9))](0x2,0x2,0x2),cubeMaterials),scene['add'](cube),camera=new THREE['PerspectiveCamera'](0x4b,Width/Height,0.1,0x3e8),camera[_0x26c53e(0xdb)][_0x26c53e(0xa4)](3.5,5.5,0x0),camera[_0x26c53e(0xd7)](scene[_0x26c53e(0xdb)]),renderer=new THREE['WebGLRenderer']({'antialias':!![]}),renderer[_0x26c53e(0xbe)](Width,Height),renderer[_0x26c53e(0xb1)](backC,0x1),controls=new THREE[(_0x26c53e(0xab))](camera,renderer[_0x26c53e(0xad)]),document['body']['appendChild'](renderer[_0x26c53e(0xad)]);}function update(){var _0x3dcdfc=_0x50d29f;renderer['setClearColor'](backC,0x1),camera['Height']=Height,camera[_0x3dcdfc(0xdd)]=Width,document['getElementById'](_0x3dcdfc(0xc3))==''?SPEED=0x0:SPEED=document[_0x3dcdfc(0xd1)](_0x3dcdfc(0xc3))[_0x3dcdfc(0xba)]/0x64,document[_0x3dcdfc(0xd1)]('rotateX')[_0x3dcdfc(0xc8)]==!![]?rotationX=0x1:rotationX=0x0,document['getElementById']('rotateY')['checked']==!![]?rotationY=0x1:rotationY=0x0,document[_0x3dcdfc(0xd1)](_0x3dcdfc(0xce))[_0x3dcdfc(0xc8)]==!![]?rotationZ=0x1:rotationZ=0x0,cube[_0x3dcdfc(0xc0)]['x']+=SPEED*rotationX,cube[_0x3dcdfc(0xc0)]['y']+=SPEED*rotationY,cube[_0x3dcdfc(0xc0)]['z']+=SPEED*rotationZ,cube[_0x3dcdfc(0xc4)]['x']=document[_0x3dcdfc(0xd1)](_0x3dcdfc(0xc9))[_0x3dcdfc(0xba)],cube['scale']['y']=document[_0x3dcdfc(0xd1)](_0x3dcdfc(0xbf))[_0x3dcdfc(0xba)],cube[_0x3dcdfc(0xc4)]['z']=document[_0x3dcdfc(0xd1)](_0x3dcdfc(0xbb))[_0x3dcdfc(0xba)],cube[_0x3dcdfc(0xd3)][0x0][_0x3dcdfc(0xb9)][_0x3dcdfc(0xa9)](color0),cube[_0x3dcdfc(0xd3)][0x1][_0x3dcdfc(0xb9)][_0x3dcdfc(0xa9)](color1),cube[_0x3dcdfc(0xd3)][0x2][_0x3dcdfc(0xb9)][_0x3dcdfc(0xa9)](color2),cube[_0x3dcdfc(0xd3)][0x3][_0x3dcdfc(0xb9)][_0x3dcdfc(0xa9)](color3),cube[_0x3dcdfc(0xd3)][0x4][_0x3dcdfc(0xb9)]['setHex'](color4),cube[_0x3dcdfc(0xd3)][0x5]['color'][_0x3dcdfc(0xa9)](color5),controls[_0x3dcdfc(0xd2)](),renderer[_0x3dcdfc(0xbe)](Width,Height);}function render(){var _0xa761e4=_0x50d29f;requestAnimationFrame(render),update(),renderer[_0xa761e4(0xaa)](scene,camera);}init(),render();
+function detectMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+if(detectMob()==true){
+    document.write("Please turn on computer mode in your mobile browser.");
+}
+
+var scene, camera, renderer, controls;
+
+var color0 = "0xff0000", color1 = "0x0033ff", color2 = "0xeeff00", color3 = "0xffffff", color4 = "0xff7b00", color5 = "0x00ff04";
+
+var cubeMaterials;
+
+var backC = 0x333333;
+var backgroundColor = document.getElementById("backgroundColor");
+
+backgroundColor.addEventListener("input", function(event){
+    backC = parseInt("0x" + event.target.value.substring(1));
+}, false);
+
+
+var input0 = document.getElementById("color-0");
+var input1 = document.getElementById("color-1");
+var input2 = document.getElementById("color-2");
+var input3 = document.getElementById("color-3");
+var input4 = document.getElementById("color-4");
+var input5 = document.getElementById("color-5");
+
+input0.addEventListener("input", function(event){
+    color0 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+input1.addEventListener("input", function(event){
+    color1 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+input2.addEventListener("input", function(event){
+    color2 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+input3.addEventListener("input", function(event){
+    color3 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+input4.addEventListener("input", function(event){
+    color4 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+input5.addEventListener("input", function(event){
+    color5 = parseInt("0x" + event.target.value.substring(1));
+}, false);
+
+
+var Height = window.innerHeight - 1, Width = window.innerWidth/ 1.5;
+
+var cube;
+
+
+var SPEED = 0.05;
+
+var rotationX = 1, rotationY = 1, rotationZ = 1;
+
+
+window.addEventListener('resize', onWindowResize, false);
+
+function onWindowResize(){
+    Width = window.innerWidth/1.5;
+    Height = window.innerHeight - 1;
+
+    camera.aspect = Width / Height;
+    camera.updateProjectionMatrix();
+
+    renderer.setSize(Width, Height);
+}
+
+function init() {
+
+    scene = new THREE.Scene();
+
+    cubeMaterials = [
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+        new THREE.MeshBasicMaterial({color: 0x000000}),
+    ]
+
+    cube = new THREE.Mesh(new THREE.BoxGeometry(2, 2, 2), cubeMaterials);
+    scene.add(cube);
+
+
+
+    camera = new THREE.PerspectiveCamera(75,
+    Width / Height,
+    0.1,
+    1000);
+    camera.position.set(3.5, 5.5, 0);
+    camera.lookAt(scene.position);
+
+
+    renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(Width, Height);
+    renderer.setClearColor(backC, 1);
+
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+    
+
+    document.body.appendChild(renderer.domElement);
+}
+
+function update(){
+    renderer.setClearColor(backC, 1);
+
+    camera.Height = Height;
+    camera.Width = Width;
+
+    if(document.getElementById("rotateSpeed")==""){
+        SPEED = 0;
+    }
+    else{
+        SPEED = document.getElementById("rotateSpeed").value/100;
+    }
+
+    if(document.getElementById("rotateX").checked == true){
+        rotationX = 1;
+    }
+    else{
+        rotationX = 0;
+    }  
+    if(document.getElementById("rotateY").checked == true){
+        rotationY = 1;
+    }
+    else{
+        rotationY = 0;
+    }
+    if(document.getElementById("rotateZ").checked == true){
+        rotationZ = 1;
+    }
+    else{
+        rotationZ = 0;
+    }
+
+    
+
+    cube.rotation.x += SPEED * rotationX;
+    cube.rotation.y += SPEED * rotationY;
+    cube.rotation.z += SPEED * rotationZ;
+    
+        
+    cube.scale.x = document.getElementById("sizeX").value;    
+    cube.scale.y = document.getElementById("sizeY").value;    
+    cube.scale.z = document.getElementById("sizeZ").value;    
+
+    cube.material[0].color.setHex(color0);
+    cube.material[1].color.setHex(color1);
+    cube.material[2].color.setHex(color2);
+    cube.material[3].color.setHex(color3);
+    cube.material[4].color.setHex(color4);
+    cube.material[5].color.setHex(color5);
+
+    controls.update();
+
+    renderer.setSize(Width, Height)
+}
+
+
+
+function render() {
+    requestAnimationFrame(render);
+    update();
+    renderer.render(scene, camera);
+}
+
+init();
+render();
